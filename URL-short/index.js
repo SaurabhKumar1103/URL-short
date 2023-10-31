@@ -11,7 +11,7 @@ const URL = require("./models/url");
 const app = express();
 const PORT = 8001;
 
-connectToMongoDB('mongodb+srv://shuru0404:shuru0404@cluster0.hxziqxt.mongodb.net/Blog?retryWrites=true&w=majority')
+connectToMongoDB('')
 .then(() => console.log('MongoDB connect'))
 
 app.set("view engine","ejs" );
